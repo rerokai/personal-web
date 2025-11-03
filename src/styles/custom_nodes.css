@@ -18,7 +18,7 @@
 .custom-node__divider {
   width: 100%;
   height: 1px;
-  background: rgba(0, 0, 0, 0.25); /* 👈 это и есть линия */
+  background: rgba(0, 0, 0, 0.25); 
   
 }
 
@@ -31,7 +31,7 @@
 .custom-node:hover {
   transform: scale(1.05);
   z-index: 21;
-  /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); */
+  
 }
 
 .custom-node__body {

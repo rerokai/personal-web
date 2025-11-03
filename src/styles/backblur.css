@@ -1,15 +1,15 @@
 .background-blur {
-  position: fixed; /* 👈 важно — чтобы тянулось на весь экран */
+  position: fixed; 
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  z-index: 20; /* ниже всего */
-  pointer-events: none; /* не мешает кликам */
+  z-index: 20; 
+  pointer-events: none; 
 }
 
-/* Общие стили для всех кругов */
+
 .circle {
    
   position: absolute;
@@ -26,7 +26,7 @@ position: absolute;
   background-size: 250px 250px;
   opacity: 0.2;
   mix-blend-mode: overlay;
-  z-index: 20;
+  z-index: 10;
 }
 
 .circle-1 {
