@@ -2,6 +2,7 @@ import React from "react";
 import './../styles/header.css';
 import {Link} from "react-router-dom"
 import { NavButton } from "./NavButton";
+import "./../styles/adaptive.css";
 
 const Header= function(){
     return(
@@ -15,10 +16,9 @@ const Header= function(){
                 </NavButton>
             </div>
                 <button className= "right_buttons">
-                    <svg className="night" width="23" height="23" viewBox="0 0 25 25" fill="none" >
-                        <path d="M0.75 12.1587C0.75 18.5277 6.06339 23.6908 12.6178 23.6908C17.6636 23.6908 21.9739 20.6309 23.6908 16.3165C22.331 16.9372 
-                        20.8127 17.2841 19.211 17.2841C13.3849 17.2841 8.66186 12.6946 8.66186 7.03331C8.66186 4.66561 9.48796 2.48541 
-                        10.8754 0.75C5.14701 1.56898 0.75 6.36487 0.75 12.1587Z" stroke="#20310F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <svg className="night" width="24" height="24" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.4722 2.41632C18.3738 -3.15528 14.0096 4.73783 12.3399 9.38083V27.3419C17.425 21.3549 26.5707 7.98793 22.4722 2.41632Z" stroke="black"/>
+                    <path d="M1.5275 2.41632C5.62597 -3.15528 9.99009 4.73783 11.6598 9.38083V27.3419C6.57469 21.3549 -2.57097 7.98793 1.5275 2.41632Z" stroke="black"/>
                     </svg>
 
                 </button>

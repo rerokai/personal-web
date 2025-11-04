@@ -1,9 +1,10 @@
 import React from "react";
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { ReactFlow, applyNodeChanges, applyEdgeChanges, addEdge, Background, BackgroundVariant, Controls, Handle, Position } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import CustomNode from "./CustomeNode";
 import CustomEdge from "./CustomEdge";
+import "./../styles/adaptive.css";
  
 const initialNodes = [
   { id: 'top', position: { x: 160, y: -160 }, data: { title: 'study', content: `now i'm studying\ncomputer science\nin Russia.` }, type:'custom' },
@@ -11,6 +12,8 @@ const initialNodes = [
   { id: 'right', position: { x: 600, y: -100 }, data: { title: 'love', content: `linux, devops,\nspend money` }, type:'custom' },
   { id: 'left', position: { x: 100, y: 70 }, data: {  title: 'contact', content: `my tg: @rerokai\ngithub: rerokai` }, type:'custom' },
 ];
+
+
 
 const initialEdges = [
   { id: "e1", source: "top", target: "center", targetHandle:"t" },
@@ -37,7 +40,7 @@ const Skills = function() {
   );
  
   return (
-    <div style={{ width: '100vw', height: '75vh' }}>
+    <div className="diagramstyle" style={{ width: '100vw', height: '75vh' }}>
       <ReactFlow
         nodes={nodes}
         edges={edges}

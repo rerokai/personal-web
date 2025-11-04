@@ -11,3 +11,12 @@
     background-color: #D4D9D0;
 
 }
+
+@media (max-width: 500px){
+    .aboutblock{
+
+        width: 100%;
+        padding-top:25%;
+        font-size: 160%;
+    }
+}

@@ -8,6 +8,7 @@ import { AnimatePresence } from "framer-motion";
 import Rerokai from "./pages/Rerokai"
 import Project from "./pages/Project"
 
+
 function AnimatedRoutes() {
   const location = useLocation();
   

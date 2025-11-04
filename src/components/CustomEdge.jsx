@@ -3,7 +3,7 @@ import { BaseEdge, getBezierPath } from '@xyflow/react';
 import "./../styles/custom_edge.css"
 
 function CustomEdge({ id, sourceX, sourceY, targetX, targetY, sourcePosition, targetPosition, style = {}, markerEnd }) {
-  // стандартная кривая Безье
+  
   const [edgePath] = getBezierPath({
     sourceX,
     sourceY,
@@ -15,7 +15,7 @@ function CustomEdge({ id, sourceX, sourceY, targetX, targetY, sourcePosition, ta
 
   return (
     <>
-      {/* Основная линия */}
+      {}
       <BaseEdge
         id={id}
         path={edgePath}
@@ -24,7 +24,7 @@ function CustomEdge({ id, sourceX, sourceY, targetX, targetY, sourcePosition, ta
         markerEnd={markerEnd}
       />
 
-      {/* Можно добавить интерактивный слой, например для клика */}
+      {}
       <path
         d={edgePath}
         fill="none"

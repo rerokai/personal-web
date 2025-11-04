@@ -45,27 +45,28 @@
   
   padding: 50px 0;
   display: flex;
-  align-items: flex-start; /* Выравнивание по верху */
-  justify-content: space-between; /* Текст слева, картинка справа */
+  align-items: flex-start;
+  justify-content: space-between; 
   width: 100%;
   height: 100%;
-  gap: 230px; /* Расстояние между текстом и картинкой */
+  gap: 230px; 
 }
 
 .text-content {
-   padding-top: -(20px);
+  padding-top: -(20px);
   color: rgba(0, 31, 7, 1);
   font-size: 140%;
-  text-align: left; /* Текст выровнен по левому краю */
+  text-align: left; 
   line-height: 1,6;
-  width: 100%; /* Текст занимает 60% ширины */
+  width: 100%; 
   margin: 0;
   
 }
 
 .image-container {
   
-  width: 60%; /* Картинка занимает 35% ширины */
+  
+  width: 60%; 
   height: 97%;
   border-radius: 16px;
   overflow: hidden;
@@ -82,6 +83,11 @@
   object-fit: cover;
 }
 
+.image-container:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
 /* .date {
   font-size: 90%;
   color: rgba(0, 31, 7, 0.7);
@@ -91,3 +97,62 @@
   text-align: center;
   width: 100%;
 } */
+
+
+@media (max-width: 500px){
+  .panel {
+
+    padding-top: 1%;
+    padding-left: 4%; 
+    padding-right: 4%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    
+  }
+
+  .content-wrapper {
+ 
+    padding-top: 3%;
+    padding-bottom: 3%;
+    flex-direction: column; 
+    justify-content: space-between;
+    gap: 20px;
+    box-sizing: border-box;
+    
+
+  }
+
+  .image-container {
+
+    border-radius: 12px;
+    width: 100%; 
+    height: 400px; 
+    order: 2; 
+
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+  .horizontal-scroll {
+
+    padding-top: 20%;
+    height: 91vh;
+
+  }
+
+  .text-content {
+   
+    font-size: 110%;   
+    overflow: auto;
+    order: 1; 
+  }
+
+
+}

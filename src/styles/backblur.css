@@ -50,5 +50,13 @@ position: absolute;
  
 }
 
+@media (max-width: 500px){
+
+  .circle-1{
+    top: 530px; left: -150px;
+    width: 100px; height: 200px;
+  }
+
+}
 
 
