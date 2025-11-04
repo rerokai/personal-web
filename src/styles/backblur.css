@@ -39,6 +39,7 @@ position: absolute;
   width: 500px; height: 500px;
   bottom: -250px; right: -50px;
   background: radial-gradient(circle, #6B7D65, #6B7D65);
+
 }
 
 .circle-3 {
@@ -46,4 +47,8 @@ position: absolute;
   top: 10%; left: 65%;
   transform: translate(-50%, -50%);
   background: radial-gradient(circle, #6B7D65, #6B7D65);
+ 
 }
+
+
+

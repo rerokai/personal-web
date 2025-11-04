@@ -11,7 +11,7 @@ const Header= function(){
                     <button  className = "but">rerokai</button>
                 </NavButton>
                 <NavButton to ="/project" className = "button button_2">
-                    <button  className = "but" >my prj</button>
+                    <button  className = "but" >blog</button>
                 </NavButton>
             </div>
                 <button className= "right_buttons">
