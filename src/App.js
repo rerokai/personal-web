@@ -9,6 +9,8 @@ import Rerokai from "./pages/Rerokai"
 import Project from "./pages/Project"
 
 
+
+
 function AnimatedRoutes() {
   const location = useLocation();
   
@@ -25,9 +27,11 @@ function AnimatedRoutes() {
 
 function App() {
   return (
+    
     <Router>
       <AnimatedRoutes />
     </Router>
+    
   );
 }
 

@@ -6,9 +6,11 @@ import Footer from "../components/Footer";
 import BackBlur from "../components/BackBlur";
 import About from "../components/About";
 
+
 export default function Home(){
     return(
         <div classname = "rerokai-page">
+           
             <BackBlur/>
             <Header/>
             <About/>

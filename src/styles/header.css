@@ -28,6 +28,7 @@
     color: #ffffff;
     font-size: 110%;
     font-family: "Montserrat", sans-serif;
+    
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 10px;
@@ -45,6 +46,7 @@
 
 
 .main-button{
+    
     color:#ffffff;
     font-size: 110%;
     font-family: "Montserrat", sans-serif;
@@ -85,9 +87,9 @@
     display: flex;
     font-size: 110%;
     font-family: "Montserrat", sans-serif;
-    padding-left: 15px;
+    padding-left: 13px;
     padding-top: 10px;
-    padding-right: 15px;
+    padding-right: 13px;
     padding-bottom: 10px;
     border: 1px solid #152B00;
     border-radius: 15px;
