@@ -49,10 +49,10 @@ const Skills = function() {
         onConnect={onConnect}
         nodeTypes={{custom: CustomNode}}
         edgeTypes={{custom: CustomEdge}}
-        panOnScroll = {false}
-        panOnDrag = {false}
-        zoomOnScroll = {false}
-        zoomOnPinch= {false}
+        // panOnScroll = {false}
+        // panOnDrag = {false}
+        // zoomOnScroll = {false}
+        // zoomOnPinch= {false}
         zoomOnDoubleClick={false}
         attributionPosition={"bottom-left"}
         fitView
