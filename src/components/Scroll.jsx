@@ -31,31 +31,32 @@ const Scroll = () => {
       <section className="panel panel_1">
         <div class="content-wrapper">
       <div class="text-content">
-        Сижу сейчас, попиваю мультиягодный смузи за 700 EUR , на улице стоит моя Bugatti Veyron Grand Sport за 1.7 млн $, 
-        ах забыл, нахожусь я в городе Палермо , Италия в вилле за 30 000 000 евро, Скоро мой шеф повар приготовит Florentiniс pizza c золотой стружкой 
-        за 1400 EUR и порцию элитных мандаришек с финиками за 300 EUR, но на нитро не хватило, подарите 
+        Изначально этот смешной сайтик писался для того чтоб потыкать React-Flow (перед другим большим проектом) и понять че это ваще за зверь и как с ним бороться...
+        Спойлер, нет ни одного русского руководства или видоса, но официальная документация очень удобная, с визуальными примерами и подробным описанием всех возможностей. <br></br>
+        <br></br>По итогам кропотливого изучения документации с гугл переводчиком, я осталась довольна, все легче чем могло бы быть. <br></br>Только с мобилкой проблемы, так как библиотека изначально заточена под десктопный UX. Видимо придется забить или  говнокодить  костыли.
+
+        <br></br> <br></br> <br></br>интересный факт, на странице на которой вы сейчас находитесь можно скроллить...
 
       </div>
       <div class="image-container" 
       onClick={() => window.open('https://github.com/rerokai', '_blank')}
           style={{ cursor: 'pointer' }}>
-        <img src="https://i.ibb.co/qMhYzLvz/2b0d6f93bf20aa46baf24e05284f3d57.jpg" alt="Описание картинки" />
+        <img src="https://i.ibb.co/1GTgXdft/image-2025-11-11-15-52-34.png" alt="я понятия не имею почему это дерьмище не прогрузилось" />
       </div> 
      </div>
 
       </section>
-      <section className="panel panel_2">
+       <section className="panel panel_2">
         <div class="content-wrapper">
       <div class="text-content">
-        Отец знакомого работает в ФСБ. Сегодня срочно вызвали на совещание. Вернулся поздно и ничего не объяснил. Сказал лишь собирать вещи и бежать
-        в магазин за продуктами на две недели. 
-        Сейчас едем куда-то далеко за город. Не знаю что происходит, но мне кажется началось... 
+        ну да, тут пока пусто
       </div>
       <div class="image-container">
-        <img src="https://i.ibb.co/HD6rgDQM/93af890d41cf1673fc65443e706a7a6b.jpg" alt="Описание картинки" />
+        <img src="https://i.ibb.co/wrWvBYDx/alice.jpg" alt="я понятия не имею почему это дерьмище не прогрузилось" />
       </div> 
      </div>
       </section>
+      {/*
       <section className="panel panel_3">
       <div class="content-wrapper">
         <div class="text-content">
@@ -71,7 +72,7 @@ const Scroll = () => {
         <img src="https://i.ibb.co/twgfYz4q/78f78713f1ad95920e35ea6cb6184cca.jpg" alt="Описание картинки" />
       </div> 
      </div>
-      </section>
+      </section> */}
     </div>
   );
 };

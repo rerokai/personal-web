@@ -13,8 +13,6 @@ const initialNodes = [
   { id: 'left', position: { x: 100, y: 70 }, data: {  title: 'contact', content: `my tg: @rerokai\ngithub: rerokai` }, type:'custom' },
 ];
 
-
-
 const initialEdges = [
   { id: "e1", source: "top", target: "center", targetHandle:"t" },
   { id: "e2", source: "left", target: "center", targetHandle:"l" },
