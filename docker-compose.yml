@@ -7,6 +7,4 @@ services:
     ports:
       - "8080:80"
     restart: always
-    volumes:
-      - .:/app
-    command: sh -c "cd /app && git pull && npm install && npm run build && nginx -g 'daemon off;'"
+    
