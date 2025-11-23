@@ -4,9 +4,7 @@ import '../index.css';
 import AnimatedContent from './animations/AnimatedContent';
 import { useSpring, animated } from '@react-spring/web';
 
-const IMAGE_URLS_TO_PRELOAD = [
-  '/imgs/riyo.jpg'
-];
+const IMAGE_URLS_TO_PRELOAD = [];
 
 const preloadImage = (url) => {
   return new Promise((resolve, reject) => {
@@ -63,7 +61,7 @@ const LoadingScreen = ({ logoStr, children }) => {
   });
 
   return (
-    <div className="flex justify-center items-center min-h-screen min-w-screen bg-black">
+    <div className="flex justify-center items-center min-h-full min-w-full overflow-x-hidden bg-black">
       {phase === 'logo' && (
         <AnimatedContent
           distance={150}
@@ -83,7 +81,7 @@ const LoadingScreen = ({ logoStr, children }) => {
             text={logoText}
             intensity={1.5}
             color="#ffffff"
-            className="text-5xl font-bold tracking-wider font-sync text-neutral-50"
+            className="text-5xl font-bold tracking-wider font-sync text-neutral-50 max-sm:text-3xl"
             animateBy="letters"
             direction="top"
             delay={100}

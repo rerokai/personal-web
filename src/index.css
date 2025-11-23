@@ -10,6 +10,11 @@
     sans-serif;
     --font-moc: "Mountains of Christmas",
     sans-serif;
+    --breakpoint-xs: 320px
+}
+
+::-webkit-scrollbar {
+    display:none;
 }
 
 html,
