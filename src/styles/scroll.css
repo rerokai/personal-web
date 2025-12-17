@@ -7,7 +7,7 @@
   width: 100%;
   scrollbar-width: none;
   padding-top: 5%;
-  background-color: #D4D9D0;
+  background-color: var(--bg-main);
   margin: 0;
   padding-bottom: 0;
   z-index: 19;
@@ -19,7 +19,7 @@
 }
 
 .panel {
-  border: 1px solid rgba(0, 31, 7, 0.5);
+  border: 1px solid var(--content-stroke);
   z-index: 25;
   flex: 0 0 94vw;
   height: 87vh;
@@ -32,7 +32,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   backdrop-filter: blur(2px);
-  background-color: rgba(0, 31, 15, 0.1);
+  background-color: var(--blog-zone);
   margin: 0 3vw;
   border-radius: 24px;
   padding: 40px 60px;

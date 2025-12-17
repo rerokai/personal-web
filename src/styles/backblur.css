@@ -32,13 +32,13 @@ position: absolute;
 .circle-1 {
   width: 500px; height: 500px;
   top: 250px; left: -180px;
-  background: radial-gradient(circle, #6B7D65, #6B7D65);
+  background: radial-gradient(circle, var(--elipse1), var(--elipse1));
 }
 
 .circle-2 {
   width: 500px; height: 500px;
   bottom: -250px; right: -50px;
-  background: radial-gradient(circle, #6B7D65, #6B7D65);
+  background: radial-gradient(circle, var(--elipse23), var(--elipse23));
 
 }
 
@@ -46,7 +46,7 @@ position: absolute;
   width: 500px; height: 550px;
   top: 10%; left: 65%;
   transform: translate(-50%, -50%);
-  background: radial-gradient(circle, #6B7D65, #6B7D65);
+  background: radial-gradient(circle, var(--elipse23), var(--elipse23));
  
 }
 

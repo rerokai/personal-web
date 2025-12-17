@@ -1,11 +1,11 @@
 .custom-edge {
-  stroke: #20310F; 
+  stroke: rgba(28, 54, 77, 0.5); 
   transition: stroke 0.2s ease;
   z-index: 22;
 }
 
 .custom-edge:hover {
-  stroke: #20310F; 
+  stroke: rgba(28, 54, 77, 1); 
   stroke-width: 3px;
 }
 

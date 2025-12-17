@@ -4,7 +4,7 @@ import { ReactFlow, applyNodeChanges, applyEdgeChanges, addEdge, Background, Bac
 import '@xyflow/react/dist/style.css';
 import CustomNode from "./CustomeNode";
 import CustomEdge from "./CustomEdge";
-import "./../styles/adaptive.css";
+
  
 const initialNodes = [
   { id: 'top', position: { x: 160, y: -160 }, data: { title: 'study', content: `now i'm studying\ncomputer science\nin Russia.` }, type:'custom' },
@@ -47,10 +47,10 @@ const Skills = function() {
         onConnect={onConnect}
         nodeTypes={{custom: CustomNode}}
         edgeTypes={{custom: CustomEdge}}
-        // panOnScroll = {false}
-        // panOnDrag = {false}
-        // zoomOnScroll = {false}
-        // zoomOnPinch= {false}
+         //panOnScroll = {false}
+         //panOnDrag = {false}
+         zoomOnScroll = {false}
+         zoomOnPinch= {false}
         zoomOnDoubleClick={false}
         attributionPosition={"bottom-left"}
         fitView
@@ -62,8 +62,8 @@ const Skills = function() {
             variant={BackgroundVariant.Dots}
             gap={18}
             size={0.9}
-            color="#6B7D65"
-            bgColor="#D4D9D0"
+            color="var(--dot)"
+            bgColor="var(--bg-main)"
           />
           
 

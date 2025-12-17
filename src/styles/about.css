@@ -5,10 +5,10 @@
     padding-bottom: 1%;
     display: flex;
     justify-content: center; 
-    color: #152B00;
+    color:  var(--text);
     font-size: 160%;
     font-family: "Montserrat", sans-serif;
-    background-color: #D4D9D0;
+    background-color: var(--bg-main);
 
 }
 

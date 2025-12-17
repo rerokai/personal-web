@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "../styles/scroll.css";
-import "./../styles/adaptive.css";
+
 
 const Scroll = () => {
   const scrollRef = useRef(null);
@@ -31,11 +31,12 @@ const Scroll = () => {
       <section className="panel panel_1">
         <div class="content-wrapper">
       <div class="text-content">
-        Изначально этот смешной сайтик писался для того чтоб потыкать React-Flow (перед другим большим проектом) и понять че это ваще за зверь и как с ним бороться...
+        Изначально этот смешной сайтик писался для того чтоб потыкать React-Flow (перед другим большим проектом) и понять че это такое...<br></br>
         Спойлер, нет ни одного русского руководства или видоса, но официальная документация очень удобная, с визуальными примерами и подробным описанием всех возможностей. <br></br>
         <br></br>По итогам кропотливого изучения документации с гугл переводчиком, я осталась довольна, все легче чем могло бы быть. <br></br>Только с мобилкой проблемы, так как библиотека изначально заточена под десктопный UX. Видимо придется забить или  говнокодить  костыли.
 
         <br></br> <br></br> <br></br>интересный факт, на странице на которой вы сейчас находитесь можно скроллить...
+        <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>  <br></br> <br></br> <br></br> 11. 11. 2025 
 
       </div>
       <div class="image-container" 
@@ -49,7 +50,7 @@ const Scroll = () => {
        <section className="panel panel_2">
         <div class="content-wrapper">
       <div class="text-content">
-        ну да, тут пока пусто
+        а тут пока пусто
       </div>
       <div class="image-container">
         <img src="https://i.ibb.co/wrWvBYDx/alice.jpg" alt="я понятия не имею почему это дерьмище не прогрузилось" />

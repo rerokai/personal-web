@@ -11,7 +11,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #D4D9D0;
+    background-color: var(--bg-main);
 }
 
 .left_buttons{
@@ -33,14 +33,14 @@
     padding-right: 20%;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 1px solid #20310F;
+    border: 1px solid var(--butt-active);
     border-radius: 15px;
-    background: rgba(88,101,76, 0.3);
+    background: var(--butt-active);
 }
 
 .main-button:hover{
     transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
-    box-shadow: 0 0 50px 20px rgba(88,101,76, 0.3) inset; 
+    box-shadow: 0 0 50px 20px var(--butt-active) inset; 
     color: white;
 }
 
@@ -54,7 +54,7 @@
     padding-right: 20%;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 1px solid #20310F;
+    border: 1px solid var(--butt-active);
     border-radius: 15px;
     background: none;
    
@@ -91,27 +91,43 @@
     padding-top: 10px;
     padding-right: 13px;
     padding-bottom: 10px;
-    border: 1px solid #152B00;
+    /* border: 1px solid var(--butt-active); */
+     border: none;
     border-radius: 15px;
     background: none;
-    color: #152B00;
+    color: var(--butt-active);
     z-index: 120;
+    /* transform: scale(1.5); */
     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
     /* &:hover { box-shadow: 0 0 70px 20px rgba(88,101,76, 0.3) inset;  } */
+}
+
+.HN{
+    color: rgba((19, 71, 134, 0))
+}
+
+.HN:hover{
+    color: black;
+    
+}
+
+.night{
+
+    transform: scale(1.5);
 }
  
 .right_buttons:hover{
 
-   transform: scale(1.3);
-   transition: 500ms;
+   /* transform: scale(1.3); */
+   /* transition: 500ms; */
     /* transition: transform 0.2s ease;  */
     border: none;
-    
 }
 
 .right_buttons:hover .night path {
   transition: 500ms;
-  stroke: #c50000;  
+  /* stroke: #000000;   */
+  color: black;
 }
 
 
