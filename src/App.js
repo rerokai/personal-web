@@ -1,13 +1,14 @@
 import React from 'react';
-import { ReactFlow } from '@xyflow/react';
+// import { ReactFlow } from '@xyflow/react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import PageWrapper from './components/PageWrapper';
 import '@xyflow/react/dist/style.css';
 import { AnimatePresence } from "framer-motion";
 import Rerokai from "./pages/Rerokai"
 import Project from "./pages/Project"
 
+import Snowfall from 'react-snowfall';
 
 
 
@@ -20,6 +21,7 @@ function AnimatedRoutes() {
         <Route path="/" element={<PageWrapper><Rerokai/></PageWrapper>}/>
         <Route path="/project" element={<PageWrapper><Project/></PageWrapper>}/>
       </Routes>
+      <Snowfall color="#fff"  snowflakeCount={300} radius={[0.5, 2.0]}/>
     </AnimatePresence>
   );
 }

@@ -10,7 +10,7 @@
   background-color: var(--bg-main);
   margin: 0;
   padding-bottom: 0;
-  z-index: 19;
+  /* z-index: 19; */
 }
 
 
@@ -20,7 +20,7 @@
 
 .panel {
   border: 1px solid var(--content-stroke);
-  z-index: 25;
+  /* z-index: 25; */
   flex: 0 0 94vw;
   height: 87vh;
   min-height: 60vh;
